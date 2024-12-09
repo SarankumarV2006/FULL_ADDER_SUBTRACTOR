@@ -22,7 +22,8 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin
 
 Carry = AB + ACin + BCin
 
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
+![Screenshot 2024-12-09 093435](https://github.com/user-attachments/assets/5e330210-bb53-4f82-8d2e-38bc344017c5)
+
 
 **Figure -1 FULL ADDER**
 
@@ -44,12 +45,22 @@ Write the detailed procedure here
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+Developed by:Sarankumar.V RegisterNumber:24010668
+```
+module Full_adder(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=(a^b^cin);
+assign carry= ( (a & b)| ( cin &(a ^ b )));
+endmodule
+```
+
 
 **RTL Schematic**
 
 **Output Timing Waveform**
+![Screenshot 2024-12-09 093739](https://github.com/user-attachments/assets/f7329748-ded4-4e84-9c5d-543773e7c277)
 
 **Result:**
 
