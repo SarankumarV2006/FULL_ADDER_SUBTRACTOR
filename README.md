@@ -39,6 +39,10 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+![Screenshot 2024-12-09 212340](https://github.com/user-attachments/assets/c6d36d66-bd82-4957-957d-cd4a051c1ce5)
+
+![Screenshot 2024-12-09 212837](https://github.com/user-attachments/assets/1d708133-9caa-47da-b2dd-c8577c1c07ee)
+
 **Procedure**
 
 Write the detailed procedure here
