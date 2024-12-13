@@ -60,6 +60,12 @@ assign sum=(a^b^cin);
 assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
 ```
+```
+modulefull_subtractor(inputA,inputB,inputBin,outputD,outputBout);
+assign D=A^B^Bin;
+assign Bout=(~A&B)|((~A|B)&Bin);
+endmodule
+```
 
 
 **RTL Schematic**
